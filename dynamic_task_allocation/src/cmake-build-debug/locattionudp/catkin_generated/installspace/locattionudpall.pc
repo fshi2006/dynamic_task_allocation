@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: locattionudpall
+Description: Description of locattionudpall
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: roscpp nav_msgs sensor_driver_msgs

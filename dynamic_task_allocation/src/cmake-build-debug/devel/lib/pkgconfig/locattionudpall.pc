@@ -1,0 +1,8 @@
+prefix=/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/cmake-build-debug/devel
+
+Name: locattionudpall
+Description: Description of locattionudpall
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/cmake-build-debug/devel/lib 
+Requires: roscpp nav_msgs sensor_driver_msgs

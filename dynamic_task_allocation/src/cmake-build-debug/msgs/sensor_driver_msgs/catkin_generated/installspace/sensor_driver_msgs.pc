@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: sensor_driver_msgs
+Description: Description of sensor_driver_msgs
+Version: 0.2.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: geometry_msgs nav_msgs sensor_msgs std_msgs

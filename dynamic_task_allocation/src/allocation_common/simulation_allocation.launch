@@ -1,0 +1,78 @@
+<launch>
+  <!--load gazebo-->
+  <!-- <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name"   value="$(find gazebo_description)/worlds/Allocation_Map.world"/>
+    <arg name="verbose"      default="true"/>
+    <arg name="use_sim_time" default="false"/>
+    <arg name="gui"          default="true"/>
+    <arg name="headless"     default="false"/>
+    <arg name="debug"        default="false"/> 
+    <arg name="paused"       default="false"/>
+  </include> -->
+
+  <!--load control terminal-->
+  <!-- <node name="control_terminal" pkg="control_terminal" type="control_terminal_node" output="screen" required="true">
+     <param name="robots_num"  value="0"  />
+  </node>
+
+  <node name="terminal_talker_node" pkg="allocation_gazebo" type="terminal_talker_node" output="screen" required="true">
+     <param name="robots_num"  value="0"  />
+  </node> -->
+
+  <node name="poses_talker_node" pkg="allocation_gazebo" type="poses_talker_node" output="screen" required="true">
+  </node>
+
+
+  <!-- <node name="dta_terminal_udp_client" pkg="dta_terminal_udp" type="dta_terminal_udp_client" output="screen" required="true">
+  </node>
+
+  <node name="dta_terminal_udp_server" pkg="dta_terminal_udp" type="dta_terminal_udp_server" output="screen" required="true">
+  </node>-->
+
+  <node name="dta_local_udp_client" pkg="dta_terminal_udp" type="dta_local_udp_client" output="screen" required="true">
+  </node>
+
+  <!-- <node name="dta_local_udp_server1" pkg="dta_terminal_udp" type="dta_local_udp_server" args="Robot1" output="screen" required="true">
+  </node> -->
+
+ <node name="dta_local_udp_server5" pkg="dta_terminal_udp" type="dta_local_udp_server" args="Robot5" output="screen" required="true">
+  </node>
+ <!-- <node name="dta_local_udp_server3" pkg="dta_terminal_udp" type="dta_local_udp_server" args="Robot3" output="screen" required="true">
+  </node>
+ <node name="dta_local_udp_server4" pkg="dta_terminal_udp" type="dta_local_udp_server" args="Robot4" output="screen" required="true">
+  </node>
+ <node name="dta_local_udp_server5" pkg="dta_terminal_udp" type="dta_local_udp_server" args="Robot5" output="screen" required="true">
+  </node>
+ <node name="dta_local_udp_server0" pkg="dta_terminal_udp" type="dta_local_udp_server" args="Robot0" output="screen" required="true">
+  </node> -->
+
+  <!-- <node name="realworld_task_allocation_node" pkg="task_allocation" type="realworld_task_allocation_node" args="Robot0" output="screen" required="true">
+  </node>
+
+   <node name="realworld_task_allocation_node1" pkg="task_allocation" type="realworld_task_allocation_node1" args="Robot1" output="screen" required="true">
+  </node> -->
+
+  <node name="realworld_task_allocation_node5" pkg="task_allocation" type="realworld_task_allocation_node5" args="Robot5" output="screen" required="true">
+  </node>
+
+  <node name="locationudpserver_all" pkg="locattionudpall" type="locationudpserver_all" output="screen" required="true">
+  </node>
+
+  <node name="locationudpclient_all" pkg="locattionudpall" type="locationudpclient_all" output="screen" required="true">
+  </node>
+
+
+
+
+     <!-- <node name="realworld_task_allocation_node3" pkg="task_allocation" type="realworld_task_allocation_node3" args="Robot3" output="screen" required="true">
+  </node>
+
+     <node name="realworld_task_allocation_node4" pkg="task_allocation" type="realworld_task_allocation_node4" args="Robot4" output="screen" required="true">
+  </node>
+
+     <node name="realworld_task_allocation_node5" pkg="task_allocation" type="realworld_task_allocation_node5" args="Robot5" output="screen" required="true">
+  </node> -->
+
+</launch>
+
+

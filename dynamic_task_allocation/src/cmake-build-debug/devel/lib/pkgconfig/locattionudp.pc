@@ -1,0 +1,8 @@
+prefix=/home/luyaomin/catkin_planning/1dynamic_task_allocation/src/cmake-build-debug/devel
+
+Name: locattionudp
+Description: Description of locattionudp
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/luyaomin/catkin_planning/1dynamic_task_allocation/src/cmake-build-debug/devel/lib 
+Requires: roscpp nav_msgs sensor_driver_msgs

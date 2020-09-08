@@ -1,0 +1,17 @@
+-I/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/cmake-build-debug/control_terminal
+-I/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/cmake-build-debug/devel/include
+-I/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/allocation_common/include
+-I/opt/ros/kinetic/include
+-I/opt/ros/kinetic/include/opencv-3.3.1-dev
+-I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv
+-I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-I/usr/include
+-I/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/control_terminal/include
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="control_terminal"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/cmake-build-debug/control_terminal/include/moc_maindialog.cpp
+/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/control_terminal/include/maindialog.h

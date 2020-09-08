@@ -1,0 +1,2 @@
+set(allocation_common_MESSAGE_FILES "msgs/gazebo_robot_info.msg;msgs/gazebo_task_info.msg;msgs/allocation_robot_info.msg;msgs/allocation_task_info.msg;msgs/terminal2gazebo_info.msg;msgs/terminal2robot_info.msg;msgs/terminal2DQN_info.msg;msgs/gazebo2world_info.msg;msgs/robot2gazebo_info.msg;msgs/allocation2terminal_info.msg;msgs/Point2d.msg;msgs/Pose.msg;msgs/Twist.msg;msgs/Observation.msg;msgs/Teammateinfo.msg;msgs/Taskinfo.msg")
+set(allocation_common_SERVICE_FILES "srv/GetAction.srv;srv/ReturnReward.srv")

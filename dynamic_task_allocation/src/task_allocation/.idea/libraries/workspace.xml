@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="workspace">
+    <CLASSES>
+      <root url="file:///opt/ros/kinetic/share" />
+      <root url="file://$PROJECT_DIR$/../../.." />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../.." />
+    </SOURCES>
+  </library>
+</component>

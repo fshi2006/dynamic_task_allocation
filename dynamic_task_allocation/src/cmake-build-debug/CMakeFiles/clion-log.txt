@@ -1,0 +1,138 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/luyaomin/catkin_planning/2dta_local_real/src/dta/src
+-- Using CATKIN_DEVEL_PREFIX: /home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/luyaomin/catkin_planning/2dta_local_real/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/luyaomin/catkin_planning/2dta_local_real/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.18
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 10 packages in topological order:
+-- ~~  - multi_vehicle_msgs
+-- ~~  - allocation_common
+-- ~~  - dta_terminal_udp
+-- ~~  - dqn_ros
+-- ~~  - control_terminal
+-- ~~  - sensor_driver_msgs
+-- ~~  - locattionudpall
+-- ~~  - task_allocation
+-- ~~  - gazebo_description
+-- ~~  - allocation_gazebo
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'multi_vehicle_msgs'
+-- ==> add_subdirectory(msgs/multi_vehicle_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- multi_vehicle_msgs: 1 messages, 0 services
+-- +++ processing catkin package: 'allocation_common'
+-- ==> add_subdirectory(allocation_common)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- allocation_common: 16 messages, 2 services
+-- +++ processing catkin package: 'dta_terminal_udp'
+-- ==> add_subdirectory(dta_terminal_udp)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'dqn_ros'
+-- ==> add_subdirectory(DQN)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+CMake Warning at cmake-build-debug/DQN/cmake/dqn_ros-genmsg.cmake:3 (message):
+  Invoking generate_messages() without having added any message or service
+  file before.
+
+  You should either add add_message_files() and/or add_service_files() calls
+  or remove the invocation of generate_messages().
+Call Stack (most recent call first):
+  /opt/ros/kinetic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  DQN/CMakeLists.txt:12 (generate_messages)
+
+
+-- dqn_ros: 0 messages, 0 services
+-- +++ processing catkin package: 'control_terminal'
+-- ==> add_subdirectory(control_terminal)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.58.0
+-- +++ processing catkin package: 'sensor_driver_msgs'
+-- ==> add_subdirectory(msgs/sensor_driver_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/ECUData.msg;/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/moving_target.msg;/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/InsVelocity.msg;/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/Points.msg;/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/PointCloudMultiLidar.msg;/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/OdometrywithGps.msg;/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/TargetCar.msg;/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/moving_target_send.msg;/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/Rectangle.msg;/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/GpswithTime.msg;/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/GpswithHeading.msg;/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/msgs/sensor_driver_msgs/msg/PointCloudMultiLaser.msg
+ECUData.msg;moving_target.msg;InsVelocity.msg;Points.msg;PointCloudMultiLidar.msg;OdometrywithGps.msg;TargetCar.msg;moving_target_send.msg;Rectangle.msg;GpswithTime.msg;GpswithHeading.msg;PointCloudMultiLaser.msg
+-- sensor_driver_msgs: 13 messages, 1 services
+-- +++ processing catkin package: 'locattionudpall'
+-- ==> add_subdirectory(locattionudp)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'task_allocation'
+-- ==> add_subdirectory(task_allocation)
+-- +++ processing catkin package: 'gazebo_description'
+-- ==> add_subdirectory(gazebo_description)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   thread
+--   signals
+--   system
+--   filesystem
+--   program_options
+--   regex
+--   iostreams
+--   date_time
+--   chrono
+--   atomic
+-- Boost version: 1.58.0
+-- Looking for OGRE...
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- +++ processing catkin package: 'allocation_gazebo'
+-- ==> add_subdirectory(allocation_gazebo)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   thread
+--   signals
+--   system
+--   filesystem
+--   program_options
+--   regex
+--   iostreams
+--   date_time
+--   chrono
+--   atomic
+-- Boost version: 1.58.0
+-- Looking for OGRE...
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/cmake-build-debug

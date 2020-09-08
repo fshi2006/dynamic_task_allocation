@@ -1,0 +1,12 @@
+<launch>
+
+  <node name="locationudpserver_all" pkg="locattionudpall" type="locationudpserver_all" output="screen" required="true">
+  </node>
+  <node name="locationudpclient_all" pkg="locattionudpall" type="locationudpclient_all" output="screen" required="true">
+  </node>
+  <node name="poses_talker_node" pkg="allocation_gazebo" type="poses_talker_node" output="screen" required="true">
+  </node>
+
+</launch>
+
+

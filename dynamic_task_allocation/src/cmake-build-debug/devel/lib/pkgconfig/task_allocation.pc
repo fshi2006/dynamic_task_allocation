@@ -1,0 +1,8 @@
+prefix=/home/luyaomin/catkin_planning/1dynamic_task_allocation/src/cmake-build-debug/devel
+
+Name: task_allocation
+Description: Description of task_allocation
+Version: 0.0.0
+Cflags: -I/home/luyaomin/catkin_planning/1dynamic_task_allocation/src/cmake-build-debug/devel/include -I/home/luyaomin/catkin_planning/1dynamic_task_allocation/src/task_allocation/include
+Libs: -L/home/luyaomin/catkin_planning/1dynamic_task_allocation/src/cmake-build-debug/devel/lib 
+Requires: message_generation dynamic_reconfigure roscpp rospy std_msgs std_srvs

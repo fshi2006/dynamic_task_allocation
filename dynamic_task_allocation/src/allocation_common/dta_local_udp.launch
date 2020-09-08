@@ -1,0 +1,10 @@
+<launch>
+
+  <node name="dta_local_udp_server" pkg="dta_terminal_udp" type="dta_local_udp_server" output="screen" required="true">
+  </node>
+  <node name="dta_local_udp_client" pkg="dta_terminal_udp" type="dta_local_udp_client" output="screen" required="true">
+  </node>
+
+</launch>
+
+

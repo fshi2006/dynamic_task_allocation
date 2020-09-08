@@ -1,0 +1,8 @@
+prefix=/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/cmake-build-debug/devel
+
+Name: multi_vehicle_msgs
+Description: Description of multi_vehicle_msgs
+Version: 0.2.0
+Cflags: -I/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/cmake-build-debug/devel/include
+Libs: -L/home/luyaomin/catkin_planning/2dta_local_real/src/dta/src/cmake-build-debug/devel/lib 
+Requires: message_runtime geometry_msgs std_msgs

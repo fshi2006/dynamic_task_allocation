@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: multi_vehicle_msgs
+Description: Description of multi_vehicle_msgs
+Version: 0.2.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: message_runtime geometry_msgs std_msgs
